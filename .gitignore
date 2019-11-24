@@ -1,5 +1,6 @@
 # Project
 config.ini
+hermes-config.json
 
 # Logs
 logs
@@ -87,8 +88,3 @@ typings/
 
 # macOS
 .DS_Store
-
-# Package manager
-pnpm-lock.yaml
-yarn.lock
-package-lock.json
