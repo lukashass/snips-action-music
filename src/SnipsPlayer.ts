@@ -159,20 +159,6 @@ export class SnipsPlayer {
     private init() {
         logger.info('MPD client is ready to use')
         this.isReady = true
-        this.setVolumeToNormal()
-            .then(() => {
-                this.stop()
-            })
-            .then(() => {
-                this.setMode()
-            })
-            .then(() => {
-                this.onStopping()
-            })
-            .catch( error => {
-                logger.error('There is an error detected when initialising the player')
-                logger.error(error.message)
-            })
     }
 
     // Player controlling commands
