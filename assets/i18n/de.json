@@ -1,0 +1,141 @@
+{
+    "error": {
+        "mqtt": [
+            "Entschuldigung, es gab einen Fehler bei der Kommunikation mit der Snips Platform."
+        ],
+        "mpdConnectionFaild": [
+            "Entschuldigung, die MPD Verbindung ist fehlgeschlagen."
+        ],
+        "mpdConnectionEnd": [
+            "Entschuldigung, die MPD Verbindung ist abgebrochen."
+        ],
+        "config": [
+            "Entschuldigung, es gab einen Fehler mit der Konfigurationsdatei."
+        ],
+        "localisation": [
+            "Entschuldigung, es gab einen Fehler mit den Spracheinstellungen."
+        ],
+        "unspecific": [
+            "Ups, da ist etwas schief gelaufen."
+        ],
+        "asrError": [
+            "Das habe ich nicht verstanden.",
+            "Ich habe dich nicht richtig verstanden.",
+            "Entschuldigung, das habe ich nicht ganz verstanden."
+        ],
+        "noSlotValueFound": [
+            "Entschuldigung, ich weiß nicht wie ich dir damit weiterhelfen kann.",
+            "Damit kann ich dir leider nicht helfen.",
+            "Entschuldigung, das habe ich nicht verstanden.",
+            "Das weiß ich nicht."
+        ],
+        "nluIntentErrorStanderd": [
+            "Entschuldigung, ich weiß nicht wie ich dir damit weiterhelfen kann.",
+            "Damit kann ich dir leider nicht helfen.",
+            "Entschuldigung, das habe ich nicht verstanden.",
+            "Das weiß ich nicht."
+        ],
+        "nluIntentErrorBad": [
+            "Entschuldigung, das habe ich nicht verstanden.",
+            "Das habe ich nicht verstanden."
+        ],
+        "nluSlotErrorStanderd": [
+            "Entschuldigung, das habe ich nicht ganz verstanden. Versuche es doch noch einmal.",
+            "Entschuldigung, das habe ich nicht ganz verstanden."
+        ],
+        "nluSlotErrorBad": [
+            "Entschuldigung, das habe ich nicht ganz verstanden."
+        ],
+        "notFound": {
+            "playTrack": [
+                "Entschuldigung, ich kann den Song {{ track }} nicht in meiner Bibliothek finden.",
+                "Entschuldigung, ich habe den Song {{ track }} nicht in meiner Bibliothek."
+            ],
+            "playTrackArtist": [
+                "Es scheint als wäre der Song {{ track }} von {{ artist }} nicht in meiner Bibliothek.",
+                "Entschuldigung ich kann den Song {{ track }} von {{ artist }} nicht in meiner Bibliothek finden."
+            ],
+            "playAlbum": [
+                "Es scheint als wäre das Album {{ album }} nicht in meiner Bibliothek.",
+                "Entschuldigung, ich kann das Album {{ album }} nicht in meiner Bibliothek finden."
+            ],
+            "playAlbumArtist": [
+                "Es scheint als wäre das Album {{ album }} von {{ artist }} nicht in meiner Bibliothek."
+            ],
+            "playArtist": [
+                "Entschuldigung, ich kann keinen Song von {{ artist }} in meiner Bibliothek finden.",
+                "Es scheint als wären keine Songs von {{ artist }} in meiner Bibliothek."
+            ],
+            "playPlaylist": [
+                "Entschuldigung, ich kann die Playlist {{ playlist }} nicht in meiner Bibliothek finden.",
+                "Es scheint als wäre die Playlist {{ playlist }} nicht in meiner Bibliothek."
+            ],
+            "playRandom": [
+                "Entschuldigung, ich kann keine Playlist in meiner Bibliothek finden."
+            ]
+        },
+        "nothingPlaying": [
+            "Es wird im Moment keine Musik gespielt, wenn du Musik spielen möchtest frag einfach.",
+            "Es wird gerade keine Musik gespielt.",
+            "Ich spiele gerade keine Musik."
+        ]
+    },
+    "info": {
+        "ready": [
+            "Hallo, ich bin ein offline Musik Assistent mit Snips Flow."
+        ],
+        "resumePlay": [
+            "Spiele weiter Musik."
+        ],
+        "playTrack": [
+            "Spiele den Song {{ track }}.",
+            "Spiele {{ track }}.",
+            "{{ track }}."
+        ],
+        "playTrackArtist": [
+            "Spiele {{ track }} von {{ artist }}.",
+            "Spiele den Song {{ track }} von {{ artist }}.",
+            "{{ track }} von {{ artist }}."
+        ],
+        "playAlbum": [
+            "Spiele das Album {{ album }}.",
+            "Spiele Songs vom Album {{ album }}."
+        ],
+        "playAlbumArtist": [
+            "Spiele das Album {{ album }} vom {{ artist }}."
+        ],
+        "playArtist": [
+            "Spiele Musik von {{ artist }}.",
+            "Spiele Songs von {{ artist }}.",
+            "Spiele beliebte Songs von {{ artist }}."
+        ],
+        "playPlaylist": [
+            "Spiele {{ playlist }}.",
+            "Spiele {{ playlist }} Musik.",
+            "Spiele eine {{ playlist }} playlist."
+        ],
+        "reportTrack": [
+            "{{ track }}",
+            "{{ track }} spielt gerade."
+        ],
+        "reportArtist": [
+            "{{ artist }}",
+            "{{ artist }} spielt gerade.",
+            "Spiele Musik von {{ artist }}."
+        ],
+        "reportAlbum": [
+            "{{ album }}",
+            "Spiele das Album {{ album }}.",
+            "Es spielt {{ album }}."
+        ],
+        "startInjection": [
+            "Starte neue Injektion."
+        ],
+        "deleteInjection": [
+            "Entferne die vorherige Injektion."
+        ],
+        "selfIntroduction": [
+            "Ich bin ein offline Musik Assistent von Snips. Ich kann mehr als zehntausend Song-, Interpreten- und Albumnamen verstehen. Du kannst mich zum Beispiel fragen 'spiel Michael Jackson', 'leg Jazz Musik auf' oder 'ich möchte Musik hören'."
+        ]
+    }
+}

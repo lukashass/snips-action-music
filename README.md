@@ -39,7 +39,7 @@ node action-music.js
 
 ## Test & Demo cases
 
-This app only supports french 🇫🇷 and english 🇬🇧.
+This app only supports french 🇫🇷, german 🇩🇪 and english 🇬🇧.
 
 ## Debug
 
